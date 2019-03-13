@@ -22,8 +22,8 @@ public class ProxyInternetAccess implements OfficeInternetAccess{
      }  
      public int getRole(String emplName) {  
          // Check role from the database based on Name and designation  
-         // return job level or job designation.  
-         return 9;  
+         // return job level or job designation. 
+    	 return 9;  
      }  
 
 }
